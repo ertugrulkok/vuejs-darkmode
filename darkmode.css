@@ -1,0 +1,43 @@
+.form-check-input {
+    background-color: rgb(223, 223, 223);
+    box-shadow: 0px 0px 12px 5px #dfdb23;
+    color: rgb(0, 0, 0);
+}
+
+.form-check-input:focus {
+    box-shadow: 0px 0px 12px 5px #dfdb23; 
+}
+
+.form-check-input:checked {
+    background-color: black;
+    box-shadow: 0px 0px 12px 5px #FFFAFF;
+}
+
+#darkmode {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    transition: 200ms;
+}
+
+#darkmode.active {
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 300px;
+    aspect-ratio: 3/4;
+}
+
+.bulbs {
+    position: relative;
+    width: 300px;
+    height: 450px;
+
+}
+
+.bulbs img {
+    position: absolute;
+}
